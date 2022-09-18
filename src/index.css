@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  height: 90px;
+  padding: 25px;
+  box-sizing: border-box;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+  align-items: center;
+  position: sticky;
+  top: 0;
+  background: #fff;
+}
+
+.logo-img {
+  height: 50px;
+}
+
+.nav ul {
+  display: flex;
+  margin-right: 10px;
+}
+
+.nav ul li {
+  list-style: none;
+  margin-left: 20px;
+  font-size: 18px;
+}
+
+.nav ul li:first-child {
+  margin-left: 0;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: #222;
+  transition: .2s ease-in;
+}
+
+.nav ul li a:hover {
+  color: rgba(0, 162, 255, 1);
+  transition: .2s ease-in;
+}
+
+
+.card {
+  display: flex;
+  margin: 15px auto;
+  max-width: 900px;
+  justify-content: center;
+}
+
+.card-img {
+  width: 250px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.card-container {
+  margin-left: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 20px;
+}
+
+.card-container img {
+  width: 8px;
+  display: inline;
+}
+
+.card-container h4 {
+  text-transform: uppercase;
+  letter-spacing: 1px ;
+  display: inline;
+  margin-left: 15px;
+}
+
+.card-container a {
+  margin-left: 15px;
+  color: gray;
+}
+
+.card-container h2 {
+  font-size: 30px;
+}
+
+.display-inline {
+  display: inline;
+}
